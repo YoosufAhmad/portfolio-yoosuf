@@ -1,5 +1,6 @@
 import React from "react";
 import projectpic1 from "./images/projectpic1.jpg";
+import projectpic2 from "./images/projectpic2.jpg";
 export default function App() {
   return (
     <div>
@@ -31,10 +32,15 @@ export default function App() {
             </p>
           </div>
 
-          <div className="flex flex-col space-y-2">
+          <div className="flex flex-col space-y-4 pb-4">
             <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
               <div class="md:flex">
-                <div class="md:shrink-0">{/* image to be added here */}</div>
+                <div class="md:shrink-0">
+                  <img
+                    src={projectpic1}
+                    className="object-cover md:max-w-xs"
+                  />
+                </div>
                 <div class="p-8">
                   <div class="uppercase tracking-wide text-sm text-amber-800 font-semibold">
                     FULL-STACK PROJECT
@@ -59,9 +65,8 @@ export default function App() {
             <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
               <div class="md:flex">
                 <div class="md:shrink-0">
-                  <img src={projectpic1} />
-
-                  </div>
+                  <img src={projectpic2} className="object-cover md:max-w-xs" />
+                </div>
                 <div class="p-8">
                   <div class="uppercase tracking-wide text-sm text-amber-800 font-semibold">
                     FULL-STACK PROJECT
