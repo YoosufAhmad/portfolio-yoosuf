@@ -11,8 +11,8 @@ export default function App() {
             <ul className="flex items-center">
               <li>
                 <a
-                  href="https://www.google.com"
-                  className="cursor-pointer text-2xl px-2 py-1 bg-gradient-to-r from-yellow-700 to-amber-950 text-white rounded-md md:hover:bg-amber-900"
+                  href="#"
+                  className="text-1xl px-4 py-2 bg-gradient-to-r from-yellow-700 to-amber-950 text-white rounded-md md:hover:bg-amber-900"
                 >
                   Resume
                 </a>
@@ -20,17 +20,17 @@ export default function App() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-7xl py-2 text-amber-950 font-medium">
+            <h2 className="text-5xl py-2 text-amber-950 font-medium md:text-7xl lg:text-8xl">
               Yoosuf Ahmad
             </h2>
             <h3 className="text-2xl py-2">Front-End Developer</h3>
-            <p className="text-md py-5 leading-8 text-slate-700">
+            <p className="text-md py-5 leading-8 text-slate-600">
               Welcome to my little corner of the Internet. Here, I share and
               showcase my tinkering on the web. I am passionate about intuitive
               design and love to craft beautiful premium websites for anyone who
               is ready to stand out from the crowd.
             </p>
-            
+            <h3 className="text-3xl py-2 text-amber-950 font-medium mt-4">Projects</h3>
           </div>
 
           <div className="flex flex-col space-y-6 pb-4">
