@@ -30,16 +30,31 @@ export default function App() {
               design and love to craft beautiful premium websites for anyone who
               is ready to stand out from the crowd.
             </p>
+            
           </div>
 
-          <div className="flex flex-col space-y-4 pb-4">
-            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-              <div class="md:flex">
-                <div class="md:shrink-0">
-                  <img
-                    src={projectpic1}
-                    className="object-cover md:max-w-xs"
-                  />
+          <div className="flex flex-col space-y-6 pb-4">
+            {/* <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+              <div class="max-w-[300px] max-h-[300px] overflow-hidden">
+                <img
+                  src={projectpic1}
+                  class="hover:scale-110 transition duration-500 cursor-pointer object-cover"
+                />
+              </div>
+              <h2 class="px-4 py-3 text-center text-slate-700">
+                Welcome to Coffee News! Coffee News is a social news
+                    aggregation app similar to Reddit. It's been tailored to
+                    give you the perfect amount of news while you sip over your
+                    coffee in the morning, allowing you to scroll till you
+                    finish your coffee.
+              </h2>
+            </div> */}
+
+
+            <div class="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+              <div class="md:flex relative">
+                <div class="md:shrink-0 overflow-hidden">
+                  <img src={projectpic1} className="object-cover md:max-w-xs hover:scale-110 transition duration-500 cursor-pointer object-cover"/>
                 </div>
                 <div class="p-8">
                   <div class="uppercase tracking-wide text-sm text-amber-800 font-semibold">
@@ -62,10 +77,10 @@ export default function App() {
               </div>
             </div>
 
-            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-              <div class="md:flex">
-                <div class="md:shrink-0">
-                  <img src={projectpic2} className="object-cover md:max-w-xs" />
+            <div class="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+              <div class="md:flex relative">
+                <div class="md:shrink-0 overflow-hidden">
+                  <img src={projectpic2} className="object-cover md:max-w-xs hover:scale-110 transition duration-500 cursor-pointer object-cover" />
                 </div>
                 <div class="p-8">
                   <div class="uppercase tracking-wide text-sm text-amber-800 font-semibold">
