@@ -35,7 +35,7 @@ export default function App() {
             </h3>
           </div>
 
-          <div className="space-y-6 pb-4 ">
+          <div className="space-y-6 pb-4">
             <div class="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
               <div class="md:flex relative">
                 <div class="md:shrink-0 overflow-hidden">
@@ -55,7 +55,7 @@ export default function App() {
                   >
                     Coffee News (Front-End)
                   </a>
-                  <p class="mt-2 text-slate-500">
+                  <p class="mt-2 text-slate-700">
                     Welcome to Coffee News! Coffee News is a social news
                     aggregation app similar to Reddit. It's been tailored to
                     give you the perfect amount of news while you sip over your
@@ -99,7 +99,7 @@ export default function App() {
                   >
                     Coffee News (Back-End)
                   </a>
-                  <p class="mt-2 text-slate-500">
+                  <p class="mt-2 text-slate-700">
                     Welcome to Coffee News! Coffee News is a social news
                     aggregation app similar to Reddit. It's been tailored to
                     give you the perfect amount of news while you sip over your
