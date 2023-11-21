@@ -1,6 +1,19 @@
 import React from "react";
 import projectpic1 from "./images/projectpic1.jpg";
 import projectpic2 from "./images/projectpic2.jpg";
+import htmlLogo from "./images/html5.svg";
+import cssLogo from "./images/css3.svg";
+import javascriptLogo from "./images/javascript.svg";
+import nodeLogo from "./images/nodedotjs.svg";
+import tailwindLogo from "./images/tailwindcss.svg";
+import supabaseLogo from "./images/supabase.svg";
+import flutterLogo from "./images/flutter.svg";
+import postgresqlLogo from "./images/postgresql.svg";
+import figmaLogo from "./images/figma.svg";
+import githubLogo from "./images/github.svg";
+import reactLogo from "./images/react.svg";
+
+
 export default function App() {
   return (
     <div>
@@ -123,7 +136,29 @@ export default function App() {
               </div>
             </div>
           </div>
+          
+        </section>     
+        <section>
+          <div className="m-4">
+          <h3 className="text-3xl text-center py-2 mt-4 text-amber-950 font-medium mt-4">
+              Skills
+            </h3>
+          <div className="flex flex-wrap justify-center gap-16 py-10">
+            <img src={htmlLogo} className="object-scale-down h-10 w-50" alt="HTML Logo"/>
+            <img src={cssLogo} className="object-scale-down h-10 w-50" alt="CSS Logo"/>
+            <img src={javascriptLogo} className="object-scale-down h-10 w-10" alt="JavaScript Logo"/>
+            <img src={reactLogo} className="object-scale-down h-10 w-10" alt="React Logo"/>
+            <img src={postgresqlLogo} className="object-scale-down h-10 w-10" alt="PostgreSQL Logo"/>
+            <img src={flutterLogo} className="object-scale-down h-10 w-10" alt="Flutter Logo"/>
+            <img src={supabaseLogo} className="object-scale-down h-10 w-10" alt="Supabase Logo"/>
+            <img src={githubLogo} className="object-scale-down h-10 w-10" alt="GitHub Logo"/>
+            <img src={figmaLogo} className="object-scale-down h-10 w-10" alt="Figma Logo"/>
+            <img src={nodeLogo} className="object-scale-down h-10 w-10" alt="Node Logo"/>
+            <img src={tailwindLogo} className="object-scale-down h-10 w-10" alt="Tailwind Logo"/>
+          </div>
+          </div>
         </section>
+
       </main>
     </div>
   );
