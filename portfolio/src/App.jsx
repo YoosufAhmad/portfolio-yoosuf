@@ -12,6 +12,7 @@ import { SiFigma } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
+import { useState } from "react";
 
 export default function App() {
   return (
@@ -74,7 +75,9 @@ export default function App() {
                     coffee in the morning, allowing you to scroll till you
                     finish your coffee.
                   </p>
-                  <p className="pt-4 text-amber-950 font-medium">React - JavaScript - Axios</p>
+                  <p className="pt-4 text-amber-950 font-medium">
+                    React - JavaScript - Axios
+                  </p>
 
                   <a
                     href="https://coffee-news-nc.netlify.app"
@@ -118,7 +121,9 @@ export default function App() {
                     coffee in the morning, allowing you to scroll till you
                     finish your coffee.
                   </p>
-                  <p className="pt-4 text-amber-950 font-medium">PostgreSQL - Express.js - JavaScript</p>
+                  <p className="pt-4 text-amber-950 font-medium">
+                    PostgreSQL - Express.js - JavaScript
+                  </p>
                   <a
                     href="https://coffeenews.onrender.com/api/"
                     className="block text-1xl text-center mt-8 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
@@ -135,29 +140,82 @@ export default function App() {
               </div>
             </div>
           </div>
-          
-        </section>     
+        </section>
         <section>
           <div className="m-4">
-          <h3 className="text-3xl text-center py-2 mt-4 text-amber-950 font-medium mt-4">
+            <h3 className="text-3xl text-center py-2 mt-4 text-amber-950 font-medium mt-4">
               Skills
             </h3>
-          <div className="flex flex-wrap justify-center gap-16 py-10 text-5xl">
-            <SiHtml5 className="hover:text-[#E34F26]"/>
-            <SiCss3 className="hover:text-[#1572B6]"/>
-            <SiJavascript className="hover:text-[#F7DF1E]"/>
-            <SiReact className="hover:text-[#61DAFB]"/>
-            <SiSupabase className="hover:text-[#3FCF8E]"/>
-            <SiPostgresql className="hover:text-[#4169E1]"/>
-            <SiGithub className=""/>
-            <SiFlutter className="hover:text-[#02569B]"/>
-            <SiFigma className="hover:text-[#F24E1E]"/>
-            <SiNodedotjs className="hover:text-[#339933]"/>
-            <SiTailwindcss className="hover:text-[#06B6D4]"/>
-          </div>
+            <div className="flex flex-wrap justify-center gap-16 py-10 text-5xl">
+              <figure className="group">
+                <SiHtml5 className="mx-auto group-hover:text-[#E34F26]" />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  HTML5
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiCss3 className="mx-auto hover:text-[#1572B6]" />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  CSS3
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiJavascript className="mx-auto hover:text-[#F7DF1E]" />
+                <figcaption className="text-sm font-medium text-white group-hover:text-black">
+                  JAVASCRIPT
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiReact className="mx-auto hover:text-[#61DAFB]" />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  REACT
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiSupabase className="mx-auto hover:text-[#3FCF8E]" />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  SUPABASE
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiPostgresql className="mx-auto hover:text-[#4169E1]" />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  PSQL
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiGithub className="mx-auto " />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  GITHUB
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiFlutter className="mx-auto hover:text-[#02569B]" />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  FLUTTER
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiFigma className="mx-auto hover:text-[#F24E1E]" />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  FIGMA
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiNodedotjs className="mx-auto hover:text-[#339933]" />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  NODE.JS
+                </figcaption>
+              </figure>
+              <figure className="group">
+                <SiTailwindcss className="mx-auto hover:text-[#06B6D4]" />
+                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
+                  TAILWIND
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </section>
-
       </main>
     </div>
   );
