@@ -83,7 +83,7 @@ export default function App() {
                   </p>
                   <a
                     href="https://coffee-news-nc.netlify.app"
-                    className="block text-1xl text-center mt-8 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
+                    className="block text-1xl text-center mt-16 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
                   >
                     Live Demo
                   </a>
@@ -117,18 +117,18 @@ export default function App() {
                     Coffee News (Back-End)
                   </a>
                   <p class="mt-2 text-slate-700">
-                    Welcome to Coffee News! Coffee News is a social news
-                    aggregation app similar to Reddit. It's been tailored to
-                    give you the perfect amount of news while you sip over your
-                    coffee in the morning, allowing you to scroll till you
-                    finish your coffee.
+                    Created
+                    following TDD via unit and integration testing. Implemented CRUD
+                    operations and RESTful API principles. Key features include: View all articles
+                    or a single article, delete or create an
+                    article, post comment, and like an article.
                   </p>
                   <p className="pt-4 text-amber-950 font-medium">
                     PostgreSQL - Express.js - JavaScript
                   </p>
                   <a
                     href="https://coffeenews.onrender.com/api/"
-                    className="block text-1xl text-center mt-8 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
+                    className="block text-1xl text-center mt-16 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
                   >
                     Live Demo
                   </a>
