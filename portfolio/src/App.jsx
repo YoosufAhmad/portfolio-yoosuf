@@ -1,18 +1,21 @@
 import React from "react";
 import projectpic1 from "./images/projectpic1.jpg";
 import projectpic2 from "./images/projectpic2.jpg";
-import { SiHtml5 } from "react-icons/si";
-import { SiCss3 } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiReact } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiGithub } from "react-icons/si";
-import { SiSupabase } from "react-icons/si";
-import { SiFigma } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { SiFlutter } from "react-icons/si";
-import { SiNodedotjs } from "react-icons/si";
-import { useState } from "react";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiTailwindcss,
+  SiGithub,
+  SiSupabase,
+  SiFigma,
+  SiPostgresql,
+  SiNodedotjs,
+  SiGmail,
+  SiLinkedin,
+  SiFlutter,
+} from "react-icons/si";
 
 export default function App() {
   return (
@@ -49,7 +52,7 @@ export default function App() {
           </div>
 
           <div className="space-y-6 pb-4">
-            <div class="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="max-w-sm sm:max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl xl:max-w-4xl">
               <div class="md:flex relative">
                 <div class="md:shrink-0 overflow-hidden">
                   <img
@@ -58,9 +61,9 @@ export default function App() {
                     className="object-cover md:max-w-xs hover:scale-110 transition duration-500 cursor-pointer object-cover"
                   />
                 </div>
-                <div class="p-8">
+                <div class="p-8 flex-col">
                   <div class="uppercase tracking-wide text-sm text-amber-800 font-semibold">
-                    FULL-STACK PROJECT
+                    Full-Stack Project
                   </div>
                   <a
                     href="https://coffee-news-nc.netlify.app"
@@ -78,7 +81,6 @@ export default function App() {
                   <p className="pt-4 text-amber-950 font-medium">
                     React - JavaScript - Axios
                   </p>
-
                   <a
                     href="https://coffee-news-nc.netlify.app"
                     className="block text-1xl text-center mt-8 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
@@ -86,7 +88,7 @@ export default function App() {
                     Live Demo
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/YoosufAhmad/nc-news"
                     className="block text-1xl text-center my-2 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
                   >
                     Code
@@ -95,7 +97,7 @@ export default function App() {
               </div>
             </div>
 
-            <div class="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="max-w-sm sm:max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl xl:max-w-4xl">
               <div class="md:flex relative">
                 <div class="md:shrink-0 overflow-hidden">
                   <img
@@ -106,7 +108,7 @@ export default function App() {
                 </div>
                 <div class="p-8">
                   <div class="uppercase tracking-wide text-sm text-amber-800 font-semibold">
-                    FULL-STACK PROJECT
+                    Full-Stack Project
                   </div>
                   <a
                     href="https://coffeenews.onrender.com/api/"
@@ -131,8 +133,8 @@ export default function App() {
                     Live Demo
                   </a>
                   <a
-                    href="#"
-                    className="block text-1xl text-center mt-2 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
+                    href="https://github.com/YoosufAhmad/be-news-project"
+                    className="block text-1xl text-center my-2 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
                   >
                     Code
                   </a>
@@ -143,77 +145,113 @@ export default function App() {
         </section>
         <section>
           <div className="m-4">
-            <h3 className="text-3xl text-center py-2 mt-4 text-amber-950 font-medium mt-4">
+            <h3 className="text-3xl text-center py-2 text-amber-950 font-medium mt-4">
               Skills
             </h3>
-            <div className="flex flex-wrap justify-center gap-16 py-10 text-5xl">
+            <div className="uppercase flex flex-wrap justify-center gap-16 py-10 text-5xl">
               <figure className="group">
                 <SiHtml5 className="mx-auto group-hover:text-[#E34F26]" />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  HTML5
+                  Html5
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiCss3 className="mx-auto hover:text-[#1572B6]" />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  CSS3
+                  Css3
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiJavascript className="mx-auto hover:text-[#F7DF1E]" />
                 <figcaption className="text-sm font-medium text-white group-hover:text-black">
-                  JAVASCRIPT
+                  JavaScript
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiReact className="mx-auto hover:text-[#61DAFB]" />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  REACT
+                  React
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiSupabase className="mx-auto hover:text-[#3FCF8E]" />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  SUPABASE
+                  Supabase
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiPostgresql className="mx-auto hover:text-[#4169E1]" />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  PSQL
+                  Psql
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiGithub className="mx-auto " />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  GITHUB
+                  Github
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiFlutter className="mx-auto hover:text-[#02569B]" />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  FLUTTER
+                  Flutter
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiFigma className="mx-auto hover:text-[#F24E1E]" />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  FIGMA
+                  Figma
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiNodedotjs className="mx-auto hover:text-[#339933]" />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  NODE.JS
+                  Node.js
                 </figcaption>
               </figure>
               <figure className="group">
                 <SiTailwindcss className="mx-auto hover:text-[#06B6D4]" />
                 <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  TAILWIND
+                  Tailwind
                 </figcaption>
               </figure>
             </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="m-4">
+            <h3 className="text-3xl text-center py-2 text-amber-950 font-medium mt-4">
+              Contact
+            </h3>
+            <p className="text-lg text-center py-2 font-medium mt-4">
+              Say Hello!
+            </p>
+            <div className="uppercase flex justify-center text-5xl mt-10 gap-16 text-gray-600">
+              <a href="yoosufahmad1998@gmail.com" className="group">
+                <SiGmail className="mx-auto group-hover:text-[#EA4335]" />
+                <p className="text-sm text-center font-medium text-white group-hover:text-black">
+                  Gmail
+                </p>
+              </a>
+              <a
+                href="http://www.linkedin.com/in/yoosuf-ahmad"
+                className="group"
+              >
+                <SiLinkedin className="mx-auto group-hover:text-[#0A66C2]" />
+                <p className="text-sm text-center font-medium text-white group-hover:text-black">
+                  Linkedin
+                </p>
+              </a>
+              <a href="https://github.com/YoosufAhmad" className="group">
+                <SiGithub className="mx-auto" />
+                <p className="text-sm text-center font-medium text-white group-hover:text-black">
+                  Github
+                </p>
+              </a>
+            </div>
+            <p className="text-lg text-center py-2 font-medium mt-4">Thank you for visiting my website😁</p>
+
           </div>
         </section>
       </main>
