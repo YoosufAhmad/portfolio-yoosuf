@@ -51,7 +51,7 @@ export default function App() {
             </h3>
           </div>
 
-          <div className="space-y-6 pb-4">
+          <div className="space-y-6 pb-10">
             <div class="max-w-sm sm:max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl xl:max-w-4xl">
               <div class="md:flex relative">
                 <div class="md:shrink-0 overflow-hidden">
