@@ -58,7 +58,7 @@ export default function App() {
                   <img
                     src={projectpic1}
                     alt="coffee picture by farza mohamadi "
-                    className="object-cover md:max-w-xs hover:scale-110 transition duration-500 cursor-pointer object-cover"
+                    className="object-cover md:max-w-xs hover:scale-110 transition duration-500 cursor-pointer"
                   />
                 </div>
                 <div class="p-8 flex-col">
@@ -103,7 +103,7 @@ export default function App() {
                   <img
                     src={projectpic2}
                     alt="coffee and newspaper picture by celine ylmz"
-                    className="object-cover md:max-w-xs hover:scale-110 transition duration-500 cursor-pointer object-cover"
+                    className="object-cover md:max-w-xs hover:scale-110 transition duration-500 cursor-pointer"
                   />
                 </div>
                 <div class="p-8">
@@ -250,8 +250,9 @@ export default function App() {
                 </p>
               </a>
             </div>
-            <p className="text-lg text-center py-2 font-medium mt-4">Thank you for visiting my website😁</p>
-
+            <p className="text-lg text-center py-2 font-medium mt-4">
+              Thank you for visiting my website😁
+            </p>
           </div>
         </section>
       </main>
